@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #000000;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ffffff 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    text-align: center;
+    margin: 10px 0 30px;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+#about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000000;
+    color: #ffffff;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px 0;
+    background-color: #f1f1f1; 
+    text-align: center; 
+}
+
+#projects .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#projects h2 {
+    font-size: 28px;
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.project h3 {
+    font-size: 22px;
+    color: #e8491d; 
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666; 
+    line-height: 1.5;
+}
+
+/* Achievements Section */
+#Achievements {
+    padding: 20px 0;
+    background-color: #f9f9f9;
+    text-align: center; 
+}
+
+#Achievements .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#Achievements h2 {
+    font-size: 28px;
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+.Achievement,
+.project {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Achievement:hover,
+.project:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.Achievement h3,
+.project h3 {
+    font-size: 22px;
+    color: #e8491d; 
+    margin-bottom: 10px;
+}
+
+.Achievement p,
+.project p {
+    font-size: 16px;
+    color: #666; 
+    line-height: 1.5;
+}
+
+.Achievement a,
+.project a {
+    display: inline-block;
+    font-size: 16px;
+    color: #e8491d; 
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.Achievement a:hover,
+.project a:hover {
+    color: #d73815; 
+}
+
+#club-activities {
+    padding: 20px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#club-activities ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+#club-activities ul li {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #000000;
+        color: #ffffff;
+        margin: 5px;
+        border-radius: 5px;
+}
+
+#certifications {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#certifications ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+#certifications ul li {
+        display: inline-block;
+        padding: 10px 20px;
+        background: #000000;
+        color: #ffffff;
+        margin: 5px;
+        border-radius: 5px;
+}
+
+
+
+#resume a {
+    display: inline-block;
+        padding: 10px 20px;
+        background: #000000;
+        color: #ffffff;
+        margin: 5px;
+        border-radius: 5px;
+        color: #ffffffee;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#contact a {
+    color: #e8491d;
+    text-decoration: none;
+}
+
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
